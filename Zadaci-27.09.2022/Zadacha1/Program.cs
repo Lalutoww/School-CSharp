@@ -14,6 +14,9 @@ namespace Zadacha1
             Console.WriteLine("What's your name?");
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name);
+            Console.WriteLine("How old are you?");
+            int age = int.Parse(Console.ReadLine());
+            
         }
     }
 }
