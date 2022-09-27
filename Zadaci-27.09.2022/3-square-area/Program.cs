@@ -15,4 +15,3 @@ namespace _3_square_area
         }
     }
 }
-
