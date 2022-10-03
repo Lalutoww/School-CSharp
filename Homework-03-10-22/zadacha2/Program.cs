@@ -6,6 +6,7 @@ namespace zadacha2
     {
         static void Main(string[] args)
         {
+            // Два вложени цикъла, за да може звездите да се отпчатват на нов ред
             for (int i = 1; i <= 5; i++)
             {
                 string row = "";
