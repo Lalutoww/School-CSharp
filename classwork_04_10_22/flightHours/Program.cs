@@ -14,10 +14,10 @@ namespace flightHours
             int length = int.Parse(Console.ReadLine());
             //------------------------\\
             int hoursToMin = hours * 60;
-            int allMin = hoursToMin + minutes + length;
-            int allMinToHours = allMin / 60;
-            int totalMin = (minutes + length) % 60;
-            Console.WriteLine($"{allMinToHours}:{totalMin}h");
+            int allInMin = hoursToMin + minutes + length;
+            int allMinToHours = allInMin / 60;
+            int onlyMinutes = (minutes + length) % 60;
+            Console.WriteLine($"{allMinToHours}:{onlyMinutes}h");
 
 
         }
