@@ -18,7 +18,7 @@ namespace zad4_dancing_room
             double bench = roomSize / 10;
             double freeSpace = roomSize - wardrobe - bench;
             double dancers = freeSpace / (40 + 7000);
-            Console.WriteLine(Math.Round(dancers));
+            Console.WriteLine(Math.Floor(dancers));
         }
     }
 }
