@@ -9,7 +9,8 @@ namespace Zadacha5
             Console.Write("a = ");
             int a = int.Parse(Console.ReadLine());
 
-            if (a >= 10 && a <= 99)
+            if (a >= 10 && a <= 99 || a >= -99 && a <= -10)
+
             {
                 Console.WriteLine("yes");
             }
